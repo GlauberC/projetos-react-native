@@ -1,11 +1,13 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Index from './projects/gettingstarted/Index'
+import Img from './LicaoA/Img'
+import Blink from './LicaoB/Blink'
+import Estilo from './LicaoC/Estilo'
 
 export default function App() {
   return (
-    <View>
-      <Index/>
+    <View style={styles.container}>
+        <Estilo/>
     </View>
   );
 }
