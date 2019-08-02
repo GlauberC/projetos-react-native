@@ -1,0 +1,1 @@
+Botão, caixa de texto, view, forms, listas
