@@ -9,6 +9,8 @@ import Toques from './aulas/6-toques/toques' // aula - 6
 import List from './aulas/7-list/list' // aula - 7
 import Routes from './aulas/8-navigation/routes'  // aula - 8
 import NewRoutes from './aulas/9-navigation2/routes' // aula - 9
+import Imagem from './aulas/11-imagens/imagens' // aula - 11
+import Abas from './aulas/12-abas/abas' // aula - 12
 
 
 // Introdução ao React Native - Developer Plus
@@ -18,7 +20,7 @@ import NewRoutes from './aulas/9-navigation2/routes' // aula - 9
 export default class Index extends Component{
     render(){
         return(
-            <NewRoutes/>
+            <Abas/>
         )
     }
 }
