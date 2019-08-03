@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     },
     imgStyle: {
         borderWidth: 2,
-        borderColor: colors.secondaryLight,
+        borderColor: colors.secondary,
         borderRadius: 160
     }
 })

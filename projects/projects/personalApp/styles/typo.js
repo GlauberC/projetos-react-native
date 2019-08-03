@@ -3,62 +3,67 @@ import colors from './colors'
 
 const typo = {
 
-    titleLight1: {
+    titlePrimary1: {
         fontSize: 28,
-        color: colors.textLight,
+        color: colors.textPrimary,
         fontWeight: 'bold'
     },
-    titleLight2: {
+    titlePrimary2: {
         fontSize: 24,
-        color: colors.textLight,
+        color: colors.textPrimary,
         fontWeight: 'bold'
     },
-    titleLight3: {
+    titlePrimary3: {
         fontSize: 20,
-        color: colors.textLight,
+        color: colors.textPrimary,
         fontWeight: 'bold'
     },
-    titleDark1: {
+    titleSecondary1: {
         fontSize: 28,
-        color: colors.textDark,
+        color: colors.textSecondary,
         fontWeight: 'bold'
     },
-    titleDark2: {
+    titleSecondary2: {
         fontSize: 24,
-        color: colors.textDark,
+        color: colors.textSecondary,
         fontWeight: 'bold'
     },
-    titleDark3: {
+    titleSecondary3: {
         fontSize: 20,
-        color: colors.textDark,
+        color: colors.textSecondary,
         fontWeight: 'bold'
     },
 
 
 
-    normalLight1: {
+    normalPrimary1: {
         fontSize: 20,
-        color: colors.textLight,
+        color: colors.textPrimary,
     },
-    normalLight2: {
+    normalPrimary2: {
         fontSize: 18,
-        color: colors.textLight,
+        color: colors.textPrimary,
     },
-    normalLight3: {
+    normalPrimary3: {
         fontSize: 16,
-        color: colors.textLight,
+        color: colors.textPrimary,
     },
-    normalDark1: {
+    normalSecondary1: {
         fontSize: 20,
-        color: colors.textDark,
+        color: colors.textSecondary,
     },
-    normalDark2: {
+    normalSecondary2: {
         fontSize: 18,
-        color: colors.textDark,
+        color: colors.textSecondary,
     },
-    normalDark3: {
+    normalSecondary3: {
         fontSize: 16,
-        color: colors.textDark,
+        color: colors.textSecondary,
+    },
+
+    normalTertiary: {
+        fontSize: 14,
+        color: colors.tertiary,
     },
 
 }

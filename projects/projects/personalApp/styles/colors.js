@@ -1,17 +1,14 @@
 const colors = {
-    primary: '#6c7eff',
-    primaryLight: '#a3adff',
-    primaryDark: '#2c52cb',
+    primary: '#100944',
+    primaryType2: '#3f2f70',
+    primaryType3: '#00001f',
 
-    secondary: '#0620a9',
-    secondaryLight: '#584adc',
-    secondaryDark: '#000078',
+    secondary: '#fafafc',
+    secondaryType2: '#c7c7c9',
 
-    backgroundPrimary: '#ffffff',
-    backgroundSecundary: '#e1e2e1',
+    tertiary: '#FC3519',
 
-
-    textLight: '#ffffff',
-    textDark: '#000000'
+    textPrimary: '#ffffff',
+    textSecondary: '#000000'
 }
 module.exports = colors

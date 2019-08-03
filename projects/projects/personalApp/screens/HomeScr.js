@@ -46,7 +46,7 @@ export default class HomeScr extends Component{
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: colors.backgroundPrimary
+        backgroundColor: colors.secondary
     },
     imgContainer:{
         flex: 4,
@@ -64,13 +64,13 @@ const styles = StyleSheet.create({
         flex: 2,
         paddingVertical: 20,
         paddingHorizontal: 10,
-        backgroundColor: colors.backgroundSecundary
+        backgroundColor: colors.secondaryType2
     },
     aspas:{
         fontSize: 35,
         fontWeight: 'bold',
         color: colors.primary
     },
-    titleText: typo.titleDark2,
-    normalText: typo.normalDark3
+    titleText: typo.titleSecondary2,
+    normalText: typo.normalSecondary3
 })

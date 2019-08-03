@@ -1,28 +1,25 @@
 import React from 'react'
 import {
-    View,
     Text,
+    View,
     StyleSheet
-
 } from 'react-native'
-
 
 import colors from '../styles/colors'
 import typo from '../styles/typo'
 
-export default () => (
+export default props => (
     <View style = {styles.container}>
-        <Text style = {styles.text}>Glauber Carvalho - 2019</Text>
+        <Text style = {styles.text}>{props.content}</Text>
     </View>
 )
-
 const styles = StyleSheet.create({
     container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
+        flex: 2,
+        justifyContent: 'flex-end',
+        paddingLeft: 20,
+        paddingBottom: 20,
         backgroundColor: colors.primary
     },
-    text: typo.normalPrimary2
-    
+    text: typo.titlePrimary1
 })
