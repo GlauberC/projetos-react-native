@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "PedraPapelTesoura",
+    "name": "GlauberApp",
     "slug": "projects",
     "privacy": "public",
     "sdkVersion": "34.0.0",
@@ -26,6 +26,12 @@
     "ios": {
       "supportsTablet": true
     },
-    "description": ""
+    "android": {
+      "package": "com.gcsoft.glauberapp",
+      "versionCode": 1,
+      "icon": "./assets/icon.png"
+    },
+    "description": "Aplicativo pessoal",
+    "githubUrl": "https://github.com/GlauberC/projetos-react-native"
   }
 }
