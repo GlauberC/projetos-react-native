@@ -7,7 +7,6 @@ import {
 } from 'react-native'
 
 import Header from '../components/header'
-import Footer from '../components/footer'
 import Project from '../components/project'
 
 const projects = require('../assets/portifolios')
@@ -24,7 +23,6 @@ export default class PortfolioScr extends Component{
 
                     </ScrollView>
                 </View>
-                <Footer/>
             </View>
         )
     }
@@ -34,6 +32,6 @@ const styles = StyleSheet.create({
         flex: 1
     },
     portfolioContainer:{
-        flex: 8
+        flex: 9
     }
 })

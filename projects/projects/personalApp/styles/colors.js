@@ -8,7 +8,7 @@ const colors = {
 
     tertiary: '#FC3519',
 
-    textPrimary: '#ffffff',
-    textSecondary: '#000000'
+    textPrimary: '#fafafc',
+    textSecondary: '#100944'
 }
 module.exports = colors

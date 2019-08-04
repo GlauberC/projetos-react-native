@@ -15,10 +15,11 @@ export default props => (
 )
 const styles = StyleSheet.create({
     container: {
-        flex: 2,
+        flex: 1,
         justifyContent: 'flex-end',
         paddingLeft: 20,
-        paddingBottom: 20,
+        paddingTop: 10,
+        paddingBottom: 10,
         backgroundColor: colors.primary
     },
     text: typo.titlePrimary1

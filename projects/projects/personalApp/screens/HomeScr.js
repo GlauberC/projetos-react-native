@@ -7,7 +7,6 @@ import {
 } from 'react-native'
 
 import ImgPerfil from '../components/imgPerfil'
-import Footer from '../components/footer'
 import Sep from '../components/separador'
 
 import typo from '../styles/typo'
@@ -35,9 +34,8 @@ export default class HomeScr extends Component{
                     <Text style = {styles.normalText}>Desenvolvedor Mobile</Text>
                 </View>
                 <View style = {styles.apresentacaoContainer}>
-                    <Text style = {styles.normalText}><Text style = {styles.aspas}>“</Text>Sou um estudante apaixonado por tecnologia, busco desafios para colocar em prática todo meu conhecimento em desenvolvimento web e mobile.</Text>
+                    <Text style = {styles.normalText}><Text style = {styles.aspas}>“</Text>Sou um estudante apaixonado por tecnologia. Busco desafios para colocar em prática todo meu conhecimento em desenvolvimento web e mobile.</Text>
                 </View>
-                <Footer/>
             </View>
         )
     }
@@ -62,7 +60,7 @@ const styles = StyleSheet.create({
     },
     apresentacaoContainer: {
         flex: 2,
-        paddingVertical: 20,
+        paddingBottom: 20,
         paddingHorizontal: 10,
         backgroundColor: colors.secondaryType2
     },
